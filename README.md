@@ -31,7 +31,7 @@ Format: `|map|domain regex|browser shell command`
 
 Example (map google services to chromium): 
 ```
-|map|^(www.\)?google.com|/bin/chromium
+|map|^(www.\)?.*google.com|/bin/chromium
 ```
 
 ### Action: exclude_query
